@@ -1,0 +1,9 @@
+<template name="App_body">
+  <div id="content-container">
+        {{#if Template.subscriptionsReady}}
+          {{> Template.dynamic template=main}}
+        {{else}}
+          Loading...
+        {{/if}}
+  </div>
+</template>
