@@ -1,9 +1,21 @@
 <template name="App_body">
-  <div id="content-container">
-        {{#if Template.subscriptionsReady}}
-          {{> Template.dynamic template=main}}
-        {{else}}
-          Loading...
-        {{/if}}
+  <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/admin/words">Words</a></li>
+            <li><a href="/admin/sentences">Sentences</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron" id="content-container">
+          {{#if Template.subscriptionsReady}}
+            {{> Template.dynamic template=main}}
+          {{else}}
+            Loading...
+          {{/if}}
+    </div>
   </div>
 </template>

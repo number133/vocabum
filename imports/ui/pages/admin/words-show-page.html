@@ -1,15 +1,25 @@
 <template name="Words_show_page">
-  All words go here.
+  <h3>All words go here.</h3>
   <form class="new-word">
-    <input type="text" name="eng" placeholder="Word in English" />
-    <input type="text" name="rus" placeholder="Word in Russian" />
-    <input type="submit" name="Save">
+    <div class="form-group">
+      <div class="row">
+        <div class="col-lg-5">
+          <input type="text" class="form-control" name="eng" placeholder="Word in English" />
+        </div>
+        <div class="col-lg-5">
+          <input type="text" class="form-control" name="rus" placeholder="Word in Russian" />
+        </div>
+        <div class="col-lg-2">
+          <input type="submit" class="btn btn-default" name="Save">
+        </div>
+      </div>
+    </div>
   </form>
-  <ul>
   {{#each word in listWords}}
-    <li>
-      {{word._id}} - {{word.data.eng}} - {{word.data.rus}}
-    </li>
+    <div class="row">
+      <div class="col-lg-2">{{word._id}}</div>
+      <div class="col-lg-5">{{word.data.eng}}</div>
+      <div class="col-lg-5">{{word.data.rus}}</div>
+    </div>
   {{/each}}
-  </ul>
 </template>

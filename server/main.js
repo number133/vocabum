@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 
 import { Words } from '../imports/api/words/words.js';
+import { Sentences } from '../imports/api/sentences/sentences.js';
 
 Meteor.startup(() => {
   // code to run on server at startup
