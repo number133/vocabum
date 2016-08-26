@@ -1,1 +1,4 @@
 /* CSS declarations go here */
+.voc-selectable-table tr {
+    cursor: pointer;
+}

@@ -34,23 +34,23 @@ Template.Sentences_show_page.events({
     target.eng.value = '';
     target.rus.value = '';
   },
-  'click .edit-sentence'(event) {
-    // Get values from form element
-    const target = event.target;
-    const sentenceEnglish = target.eng.value;
-    const sentenceRussian = target.rus.value;
+  // 'click .edit-sentence'(event) {
+  //   // Get values from form element
+  //   const target = event.target;
+  //   const sentenceEnglish = target.eng.value;
+  //   const sentenceRussian = target.rus.value;
 
-    // Insert a sentence into the collection
-    Sentences.insert({
-      createdAt: new Date(),
-      data: {
-        eng: sentenceEnglish,
-        rus: sentenceRussian
-      },
-    });
+  //   // Insert a sentence into the collection
+  //   Sentences.insert({
+  //     createdAt: new Date(),
+  //     data: {
+  //       eng: sentenceEnglish,
+  //       rus: sentenceRussian
+  //     },
+  //   });
 
-    // Clear form
-    target.eng.value = '';
-    target.rus.value = '';
-  },
+  //   // Clear form
+  //   target.eng.value = '';
+  //   target.rus.value = '';
+  // },
 });
