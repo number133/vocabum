@@ -39,7 +39,7 @@ Template.Collections_show_page.helpers({
   listCollectionWordsSettings: function () {
     var ids = [];
     var collection = Template.instance().templateDictionary.get('selectedCollection');
-    if(collection){
+    if(collection && collection.words){
       var words = collection.words;
       for (var i = 0; i < words.length; i++) {
           ids.push(words[i].wordId);
@@ -131,6 +131,7 @@ Template.Collections_show_page.events({
     Collections.insert({
       createdAt: new Date(),
       name: textName,
+      words: []
     });
 
     // Clear form

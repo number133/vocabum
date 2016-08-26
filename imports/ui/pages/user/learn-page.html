@@ -1,0 +1,35 @@
+<template name="Learn_page">
+  <h3>Learn new words.</h3>
+  <select id="collection-select">
+    <option disabled="disabled" selected="selected">Select collection</option>
+    {{#each collections}}
+        <option value="{{_id}}">{{name}}</option>
+    {{/each}}
+  </select>
+
+  {{#if word}}
+  <div >
+    <div class="row">
+      <div class="col-lg-5">
+        {{word.data.eng}}
+      </div>
+      <div class="col-lg-5">
+        {{word.data.rus}}
+      </div>
+    </div>
+
+    {{#each sentence in sentences}}
+      <div class="row">
+        <div class="col-lg-5">{{sentence.data.eng}}</div>
+        <div class="col-lg-5">{{sentence.data.rus}}</div>
+      </div>
+    {{/each}}
+
+    {{#if hasNextWord}}
+    <button type="button" class="btn btn-primary js-next-word" id="next-word">Next</button>
+    {{else}}
+    <button type="button" class="btn btn-primary js-first-word" id="first-word">First</button>
+    {{/if}}
+  </div>
+  {{/if}}
+</template>
