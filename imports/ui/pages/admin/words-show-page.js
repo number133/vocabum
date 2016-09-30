@@ -7,6 +7,7 @@ import './words-show-page.html';
 
 Template.Words_show_page.helpers({
   listWords() {
+    debugger;
     return Words.find({});
   }
 });
@@ -18,20 +19,20 @@ Template.Words_show_page.events({
 
     // Get values from form element
     const target = event.target;
-    const textEnglish = target.eng.value;
-    const textRussian = target.rus.value;
+    const textFirstLang = target.first_lang.value;
+    const textSecondLang = target.second_lang.value;
 
     // Insert a word into the collection
     Words.insert({
       createdAt: new Date(),
       data: {
-        eng: textEnglish,
-        rus: textRussian
+        firstLang: textFirstLang,
+        secondLang: textSecondLang
       },
     });
 
     // Clear form
-    target.eng.value = '';
-    target.rus.value = '';
+    target.first_lang.value = '';
+    target.second_lang.value = '';
   },
 });

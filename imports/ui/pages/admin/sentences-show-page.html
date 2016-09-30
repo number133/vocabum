@@ -4,10 +4,10 @@
     <div class="form-group">
       <div class="row">
         <div class="col-lg-5">
-          <input type="text" class="form-control" name="eng" placeholder="Sentence in English" />
+          <input type="text" class="form-control" name="firstLang" placeholder="Sentence in first language" />
         </div>
         <div class="col-lg-5">
-          <input type="text" class="form-control" name="rus" placeholder="Sentence in Russian" />
+          <input type="text" class="form-control" name="secondLang" placeholder="Sentence in second language" />
         </div>
         <div class="col-lg-2">
           <input type="submit" class="btn btn-default" name="Save">
@@ -18,8 +18,8 @@
 
   {{#each sentence in listSentences}}
       <div class="row">
-        <div class="col-lg-5">{{sentence.data.eng}}</div>
-        <div class="col-lg-5">{{sentence.data.rus}}</div>
+        <div class="col-lg-5">{{sentence.data.firstLang}}</div>
+        <div class="col-lg-5">{{sentence.data.secondLang}}</div>
         <div class="col-lg-2"><button class="edit-sentence btn btn-default" name="edit">Edit</button></div>
       </div>
   {{/each}}

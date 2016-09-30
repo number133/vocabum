@@ -4,10 +4,10 @@
     <div class="form-group">
       <div class="row">
         <div class="col-lg-5">
-          <input type="text" class="form-control" name="eng" placeholder="Word in English" />
+          <input type="text" class="form-control" name="first_lang" placeholder="Word in first language" />
         </div>
         <div class="col-lg-5">
-          <input type="text" class="form-control" name="rus" placeholder="Word in Russian" />
+          <input type="text" class="form-control" name="second_lang" placeholder="Word in second language" />
         </div>
         <div class="col-lg-2">
           <input type="submit" class="btn btn-default" name="Save">
@@ -17,9 +17,8 @@
   </form>
   {{#each word in listWords}}
     <div class="row">
-      <div class="col-lg-2">{{word._id}}</div>
-      <div class="col-lg-5">{{word.data.eng}}</div>
-      <div class="col-lg-5">{{word.data.rus}}</div>
+      <div class="col-lg-5">{{word.data.firstLang}}</div>
+      <div class="col-lg-5">{{word.data.secondLang}}</div>
     </div>
   {{/each}}
 </template>

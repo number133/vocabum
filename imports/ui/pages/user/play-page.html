@@ -1,5 +1,5 @@
-<template name="Learn_page">
-  <h3>Learn new words.</h3>
+<template name="Play_page">
+  <h3>Let's play, yeah!</h3>
   <select id="collection-select">
     <option disabled="disabled" selected="selected">Select collection</option>
     {{#each collections}}
@@ -19,20 +19,28 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="well">
-              {{word.data.secondLang}}
-            </div>
+              {{#each answer in answers}}
+                <button type="button" class="btn btn-primary js-answer"> {{answer.data.secondLang}} </button>
+              {{/each}}
           </div>
         </div>
-
-        {{#each sentence in sentences}}
-          <div class="row">
-            <div class="col-lg-5">{{sentence.data.firstLang}}</div>
-            <div class="col-lg-5">{{sentence.data.secondLang}}</div>
+        
+        {{#if showTip}}
+          <div>
+            {{#each sentence in sentences}}
+              <div class="row">
+                <div class="col-lg-5">{{sentence.data.firstLang}}</div>
+              </div>
+            {{/each}}
           </div>
-        {{/each}}
+        {{/if}}
+
+        <div>
+          {{result}}
+        </div>
       </div>
     </div>
+    <button type="button" class="btn btn-primary js-tip" id="tip">Tip</button>
     {{#if hasNextWord}}
     <button type="button" class="btn btn-primary js-next-word" id="next-word">Next</button>
     {{else}}

@@ -6,6 +6,7 @@ import '../../ui/pages/admin/words-show-page.js';
 import '../../ui/pages/admin/sentences-show-page.js';
 import '../../ui/pages/admin/collections-show-page.js';
 import '../../ui/pages/user/learn-page.js';
+import '../../ui/pages/user/play-page.js';
 
 FlowRouter.route('/admin/words', {
   name: 'Admin.words',
@@ -32,5 +33,12 @@ FlowRouter.route('/user/learn', {
   name: 'User.learn',
   action() {
     BlazeLayout.render('App_body', { main: 'Learn_page' });
+  },
+});
+
+FlowRouter.route('/user/play', {
+  name: 'User.play',
+  action() {
+    BlazeLayout.render('App_body', { main: 'Play_page' });
   },
 });

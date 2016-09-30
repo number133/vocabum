@@ -18,21 +18,21 @@ Template.Sentences_show_page.events({
 
     // Get values from form element
     const target = event.target;
-    const sentenceEnglish = target.eng.value;
-    const sentenceRussian = target.rus.value;
+    const sentenceFirstLang = target.firstLang.value;
+    const sentenceSecondLang = target.secondLang.value;
 
     // Insert a sentence into the collection
     Sentences.insert({
       createdAt: new Date(),
       data: {
-        eng: sentenceEnglish,
-        rus: sentenceRussian
+        firstLang: sentenceFirstLang,
+        secondLang: sentenceSecondLang
       },
     });
 
     // Clear form
-    target.eng.value = '';
-    target.rus.value = '';
+    target.firstLang.value = '';
+    target.secondLang.value = '';
   },
   // 'click .edit-sentence'(event) {
   //   // Get values from form element

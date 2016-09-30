@@ -53,8 +53,8 @@ Template.Collections_show_page.helpers({
       fields:
       [
         {
-          fieldId: 'data.eng',
-          key: 'data.eng',
+          fieldId: 'data.firstLang',
+          key: 'data.firstLang',
           label: 'Name'
         },
         {
@@ -86,14 +86,14 @@ Template.Collections_show_page.helpers({
       fields:
       [
         {
-          fieldId: 'data.eng',
-          key: 'data.eng',
-          label: 'Name english'
+          fieldId: 'data.firstLang',
+          key: 'data.firstLang',
+          label: 'Name in first language'
         },
         {
-          fieldId: 'data.rus',
-          key: 'data.rus',
-          label: 'Name russian'
+          fieldId: 'data.secondLang',
+          key: 'data.secondLang',
+          label: 'Name in second language'
         },
         {
           fieldId: 'action',
@@ -157,7 +157,7 @@ Template.Collections_show_page.events({
   },
 
   'click .reactive-table.js-words tbody tr': function (event) {
-    if(event.target.className === 'data.eng') {
+    if(event.target.className === 'data.firstLang') {
       Template.instance().templateDictionary.set('selectedWord', this);
     }
     if(event.target.className === '_id') {
@@ -211,7 +211,7 @@ Template.wordsModalTemplate.helpers({
       rowsPerPage: 10,
       showFilter: true,
       class: 'table table-hover col-sm-12',
-      fields: ['data.eng']
+      fields: ['data.firstLang']
     };
   },
   wordSelected: function () {
@@ -250,7 +250,7 @@ Template.sentencesModalTemplate.helpers({
       rowsPerPage: 10,
       showFilter: true,
       class: 'table table-hover col-sm-12',
-      fields: ['data.eng', 'data.rus']
+      fields: ['data.firstLang', 'data.secondLang']
     };
   },
   sentenceSelected: function () {
