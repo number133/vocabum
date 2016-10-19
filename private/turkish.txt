@@ -1,0 +1,1000 @@
+bir, sıfat	bir	 sıfat	 adjective	one		
+ve, bağlaç	ve	 bağlaç	 conjunction	and		
+olmak, fiil	olmak	 fiil	 verb	be		
+bu, zamir	bu	 zamir	 pronoun	it		
+için, edat	için	 edat	 preposition	for		
+o, zamir	o	 zamir	 pronoun	He		
+ben, zamir	ben	 zamir	 pronoun	I		
+demek, fiil	demek	 fiil	 verb	say		
+çok, sıfat	çok	 sıfat	 adjective	very		
+yapmak, fiil	yapmak	 fiil	 verb	make		
+ne, zarf	ne	 zarf	adverb	What		
+gibi, bağlaç	gibi	 bağlaç	 conjunction	as		
+daha, sıfat	daha	 sıfat	 adjective	more		
+almak, fiil	almak	 fiil	 verb	receive		
+var, sıfat	var	 sıfat	 adjective	there is		
+kendi, zamir	kendi	 zamir	 pronoun	own		
+gelmek, fiil	gelmek	 fiil	 verb	come		
+ile, bağlaç	ile	 bağlaç	 conjunction	with		
+vermek, fiil	vermek	 fiil	 verb	give		
+ama, bağlaç	ama	 bağlaç	 conjunction	but		
+sonra, edat	sonra	 edat	 preposition	after		
+kadar, edat	kadar	 edat	 preposition	until		
+yer, isim	yer	 isim	noun	place		
+en, isim	en	 isim		most		
+insan, isim	insan	 isim		human		
+değil, isim	değil	 isim		not		
+her, sıfat	her	 sıfat		each		
+istemek, fiil	istemek	 fiil		request		
+yıl, isim	yıl	 isim		year		
+çıkmak, fiil	çıkmak	 fiil		exit		
+görmek, fiil	görmek	 fiil		see		
+gün, isim	gün	 isim		day		
+biz, zamir	biz	 zamir		we		
+gitmek, fiil	gitmek	 fiil		go		
+iş, isim	iş	 isim		business		
+şey, isim	şey	 isim		thing		
+ara, isim	ara	 isim		intermediate		
+ki, bağlaç	ki	 bağlaç		that		
+bilmek, fiil	bilmek	 fiil		know		
+el, isim	el	 isim		hand		
+zaman, isim	zaman	 isim		time		
+ya, bağlaç	ya	 bağlaç		either		
+çocuk, isim	çocuk	 isim		child		
+iki, sıfat	iki	 sıfat		two		
+bakmak, fiil	bakmak	 fiil		look		
+çalışmak, fiil	çalışmak	 fiil		work		
+içinde, isim	içinde	 isim		in		
+büyük, sıfat	büyük	 sıfat		big		
+yok, zarf	yok	 zarf		no		
+başlamak, fiil	başlamak	 fiil		start		
+yol, isim	yol	 isim		way		
+kalmak, fiil	kalmak	 fiil		stay		
+neden, isim	neden	 isim		why		
+siz, zamir	siz	 zamir		you		
+konu, isim	konu	 isim		subject	Konu nedir?	What's the topic?
+yapılmak, fiil	yapılmak	 fiil		be done		
+iyi, sıfat	iyi	 sıfat		good		
+kadın, isim	kadın	 isim		woman		
+ev, isim	ev	 isim		home		
+ise, ek eylem	ise	 ek eylem		if	Ve öyle ise, sonra ne olacak?	And if so, what then?
+diye, zarf	diye	 zarf		that	Düşerim diye korkuyorum.	I'm afraid to fall.
+bulunmak, fiil	bulunmak	 fiil		have		
+söylemek, fiil	söylemek	 fiil		say		
+göz, isim	göz	 isim		eye		
+gerekmek, fiil	gerekmek	 fiil		be necessary		
+dünya, isim	dünya	 isim		world		
+baş, isim	baş	 isim		head		
+durum, isim	durum	 isim		status	Durum ümitsizdir.	The situation is hopeless.
+yan, isim	yan	 isim		side		
+geçmek, fiil	geçmek	 fiil		pass		
+sen, zamir	sen	 zamir		you		
+onlar, zamir	onlar	 zamir		them		
+yeni, sıfat	yeni	 sıfat		new		
+önce, zarf	önce	 zarf		before		
+başka, sıfat	başka	 sıfat		another		
+hâl, isim	hâl	 isim		status	Savaş hâlindeyiz.	We are at war.
+orta, sıfat	orta	 sıfat		middle		
+su, isim	su	 isim		water		
+girmek, fiil	girmek	 fiil		enter		
+ülke, isim	ülke	 isim		country		
+yemek, fiil	yemek	 fiil		eat		
+hiç, zarf	hiç	 zarf		no		
+bile, zarf	bile	 zarf		even		
+nasıl, zarf	nasıl	 zarf		how		
+bütün, sıfat	bütün	 sıfat		all		
+karşı, edat	karşı	 edat		against		
+bulmak, fiil	bulmak	 fiil		find		
+böyle, sıfat	böyle	 sıfat		such		
+yaşamak, fiil	yaşamak	 fiil		live		
+düşünmek, fiil	düşünmek	 fiil		think		
+aynı, sıfat	aynı	 sıfat		same		
+iç, isim	iç	 isim		inner		
+ancak, zarf	ancak	 zarf		but		
+kişi, isim	kişi	 isim		person		
+bunlar, zamir	bunlar	 zamir		these		
+veya, bağlaç	veya	 bağlaç		or		
+ilk, sıfat	ilk	 sıfat		first		
+göre, zarf	göre	 zarf		by	Görünüşe göre yargılamayın.	Don't judge by appearances.
+ön, sıfat	ön	 sıfat		front		
+son, isim	son	 isim		last		
+biri, zamir	biri	 zamir		someone		
+şekil, isim	şekil	 isim		figure	Tom inanılmaz şekilde.	Tom is in incredible shape.
+önemli, sıfat	önemli	 sıfat		important		
+yüz, isim	yüz	 isim		face		
+hem, bağlaç	hem	 bağlaç		and		
+göstermek, fiil	göstermek	 fiil		show	Bana ne göstermek istedin?	What did you want to show me?
+etmek, fiil	etmek	 fiil		make		
+alt, sıfat	alt	 sıfat		lower		
+getirmek, fiil	getirmek	 fiil		to bring	Bu, denize su getirmek gibidir.	This is like bringing water to the sea.
+kullanmak, fiil	kullanmak	 fiil		use		
+çünkü, bağlaç	çünkü	 bağlaç		because		
+taraf, isim	taraf	 isim		side		
+şimdi, zarf	şimdi	 zarf		now		
+adam, isim	adam	 isim		man		
+onun, zamir	onun	 zamir		her		
+diğer, sıfat	diğer	 sıfat		other	Tom'un Mary'den beri hiç diğer kız arkadaşları olmadı.	Tom hasn't had any other girlfriends since Mary.
+artık, zarf	artık	 zarf		no longer		
+üzerinde, zarf	üzerinde	 zarf		over		
+ses, isim	ses	 isim		sound		
+hep, zarf	hep	 zarf		always		
+doğru, sıfat	doğru	 sıfat		right		
+durmak, fiil	durmak	 fiil		stop		
+kız, isim	kız	 isim		girl		
+tüm, sıfat	tüm	 sıfat		all		
+çekmek, fiil	çekmek	 fiil		attract		
+konuşmak, fiil	konuşmak	 fiil		talk		
+para, isim	para	 isim		money		
+anlamak, fiil	anlamak	 fiil		understand		
+anne, isim	anne	 isim		mom		
+az, sıfat	az	 sıfat		little		
+bazı, sıfat	bazı	 sıfat		Some		
+baba, isim	baba	 isim		father		
+hayat, isim	hayat	 isim		life		
+sadece, zarf	sadece	 zarf		just	Sadece bekleyemem.	I just can't wait.
+küçük, sıfat	küçük	 sıfat		small		
+fazla, sıfat	fazla	 sıfat		much	Çok fazla konuşuyorsun.	You talk too much.
+bilgi, isim	bilgi	 isim		information		
+an, isim	an	 isim		moment		
+sormak, fiil	sormak	 fiil		ask		
+bunun, zamir	bunun	 zamir		it		
+öyle, zarf	öyle	 zarf		so		
+yine, zarf	yine	 zarf		again		
+sağlamak, fiil	sağlamak	 fiil		ensure	İnek bize süt sağlamaktadır.	The cow supplies us with milk.
+sonuç, isim	sonuç	 isim		result		
+kullanılmak, fiil	kullanılmak	 fiil		use		
+dış, isim	dış	 isim		teeth		
+ad, isim	ad	 isim		name		
+yani, bağlaç	yani	 bağlaç		so		
+süre, isim	süre	 isim		time		
+dönmek, fiil	dönmek	 fiil		return		
+açmak, fiil	açmak	 fiil		open		
+oturmak, fiil	oturmak	 fiil		sit		
+anlatmak, fiil	anlatmak	 fiil		tell		
+bırakmak, fiil	bırakmak	 fiil		To leave		
+hemen, zarf	hemen	 zarf		immediately		
+saat, isim	saat	 isim		hour		
+yaş, isim	yaş	 isim		age		
+sorun, isim	sorun	 isim		problem		
+devlet, isim	devlet	 isim		state		
+sahip, isim	sahip	 isim		owner	Likör dükkanının sahibidir.	He is the owner of the liquor shop.
+sıra, isim	sıra	 isim		line		
+yazmak, fiil	yazmak	 fiil		write		
+yüzde, isim	yüzde	 isim		percent		
+ay, isim	ay	 isim		moon		
+atmak, fiil	atmak	 fiil		throw away		
+tutmak, fiil	tutmak	 fiil		keep		
+bunu, zamir	bunu	 zamir		this		
+olay, isim	olay	 isim		event		
+düşmek, fiil	düşmek	 fiil		fall		
+duymak, fiil	duymak	 fiil		hear		
+söz, isim	söz	 isim		promise		
+güzel, sıfat	güzel	 sıfat		beautiful		
+sevmek, fiil	sevmek	 fiil		love		
+biraz, sıfat	biraz	 sıfat		some		
+zor, zarf	zor	 zarf		hard		
+çıkarmak, fiil	çıkarmak	 fiil		eject		
+şu, zamir	şu	 zamir		water		
+koymak, fiil	koymak	 fiil		put		
+tek, sıfat	tek	 sıfat		single		
+sistem, isim	sistem	 isim		system		
+birlikte, sıfat	birlikte	 sıfat		together		
+verilmek, fiil	verilmek	 fiil		to be given		
+kim, zarf	kim	 zarf		who		
+alınmak, fiil	alınmak	 fiil		to be taken		
+genç, sıfat	genç	 sıfat		young		
+kapı, isim	kapı	 isim		door		
+kitap, isim	kitap	 isim		book		
+üzerine, zarf	üzerine	 zarf		over		
+burada, zarf	burada	 zarf		here		
+gece, isim	gece	 isim		night		
+alan, isim	alan	 isim		area		
+birbiri, zamir	birbiri	 zamir		each other		
+işte, edat	işte	 edat		Here		
+beklemek, fiil	beklemek	 fiil		wait		
+uzun, sıfat	uzun	 sıfat		long		
+hiçbir, sıfat	hiçbir	 sıfat		no		
+bugün, isim	bugün	 isim		today		
+dönem, isim	dönem	 isim		period	İlk dönem nisanda başlar.	The first term starts in April.
+arkadaş, isim	arkadaş	 isim		friend		
+ürün, isim	ürün	 isim		product	Ürün kutudan çıkarılmadı.	The product was not taken out of the box.
+aile, isim	aile	 isim		family		
+üç, sıfat	üç	 sıfat		three		
+okumak, fiil	okumak	 fiil		reading		
+erkek, isim	erkek	 isim		male		
+herkes, zamir	herkes	 zamir		everyone		
+güç, isim	güç	 isim		power		
+belki, zarf	belki	 zarf		maybe		
+gerçek, isim	gerçek	 isim		real		
+tam, sıfat	tam	 sıfat		full		
+ilgili, sıfat	ilgili	 sıfat		about		
+ilişki, isim	ilişki	 isim		relationship	Benimle ilişkiyi bitirme.	Don't break up with me.
+çevre, isim	çevre	 isim		environment		
+eski, sıfat	eski	 sıfat		old		
+aramak, fiil	aramak	 fiil		call, search, seek	Polisi aramak zorundayız.	We have to call the police.
+yaşam, isim	yaşam	 isim		life		
+halk, isim	halk	 isim		people		
+yakın, sıfat	yakın	 sıfat		near		
+sokak, isim	sokak	 isim		Street		
+bey, isim	bey	 isim		bey		
+tarih, isim	tarih	 isim		history		
+özellik, isim	özellik	 isim		feature		
+bölüm, isim	bölüm	 isim		chapter		
+özel, sıfat	özel	 sıfat		special		
+akıl, isim	akıl	 isim		mind		
+kimse, zamir	kimse	 zamir		nobody		
+pek, sıfat	pek	 sıfat		very		
+eğer, bağlaç	eğer	 bağlaç		if		
+gerek, sıfat	gerek	 sıfat		need		
+özellikle, zarf	özellikle	 zarf		especially		
+anlam, isim	anlam	 isim		meaning		
+yüksek, sıfat	yüksek	 sıfat		high		
+banka, isim	banka	 isim		bank		
+kez, zarf	kez	 zarf		times		
+ayak, isim	ayak	 isim		foot		
+taşımak, fiil	taşımak	 fiil		transport		
+geri, sıfat	geri	 sıfat		back		
+toplum, isim	toplum	 isim		society		
+araç, isim	araç	 isim		vehicle	Lütfen araçtan inin.	Please step out of the vehicle.
+madde, isim	madde	 isim		matter	Madde atomlardan oluşur.	Matter is made of atoms.
+tür, isim	tür	 isim		kind		
+karar, isim	karar	 isim		decision		
+görülmek, fiil	görülmek	 fiil		occur	todo	
+hava, isim	hava	 isim		air		
+sayı, isim	sayı	 isim		number		
+farklı, sıfat	farklı	 sıfat		different		
+grup, isim	grup	 isim		group		
+oda, isim	oda	 isim		room		
+biçim, isim	biçim	 isim		format	Sessiz biçimde konuş.	Speak quietly.
+oluşmak, fiil	oluşmak	 fiil		occur		
+haber, isim	haber	 isim		news		
+Allah, isim	Allah	 isim		God		
+ayrıca, zarf	ayrıca	 zarf		also		
+gelen, sıfat	gelen	 sıfat		incoming		
+birkaç, sıfat	birkaç	 sıfat		a few		
+soru, isim	soru	 isim		question		
+arka, isim	arka	 isim		back		
+kazanmak, fiil	kazanmak	 fiil		win		
+yazı, isim	yazı	 isim		article		
+okul, isim	okul	 isim		school		
+açık, sıfat	açık	 sıfat		open		
+öğrenmek, fiil	öğrenmek	 fiil		learn		
+sürmek, fiil	sürmek	 fiil		lead		
+dil, isim	dil	 isim		language		
+şirket, isim	şirket	 isim		company	Şirkette açıkça konuşmalısın.	You must speak clearly in company.
+kaynak, isim	kaynak	 isim		source		
+bitmek, fiil	bitmek	 fiil		end		
+program, isim	program	 isim		program		
+devam etmek, fiil	devam etmek	 fiil		continue		
+hareket, isim	hareket	 isim		movement		
+renk, isim	renk	 isim		color		
+açılmak, fiil	açılmak	 fiil		open		
+hak, isim	hak	 isim		right		
+inanmak, fiil	inanmak	 fiil		believe		
+çalışma, isim	çalışma	 isim		work		
+açı, isim	açı	 isim		pain		
+parça, isim	parça	 isim		piece		
+gazete, isim	gazete	 isim		newspaper		
+oluşturmak, fiil	oluşturmak	 fiil		create	Web sitesi oluşturmak için birini arıyorum.	I'm looking for someone to create a website.
+tabi, sıfat	tabi	 sıfat		subject	Tüm diller varyasyonlara tabidir.	All the languages are subject to variations.
+değer, isim	değer	 isim		value	Riske değer.	It's worth the risk.
+tanımak, fiil	tanımak	 fiil		know		
+yapı, isim	yapı	 isim		structure		
+doktor, isim	doktor	 isim		doctor		
+gelir, isim	gelir	 isim		income		
+görev, isim	görev	 isim		task	Görevini yapmalısın.	You must do your duty.
+amaç, isim	amaç	 isim		goal	Amacımıza ulaştık.	We reached our goal.
+bölge, isim	bölge	 isim		area	Bölgede insanlar hiç yaşamadı.	The region has never been inhabited by people.
+film, isim	film	 isim		film		
+üzere, zarf	üzere	 zarf		in		
+müşteri, isim	müşteri	 isim		customer	Müşteri servisi mükemmel.	The customer service is excellent.
+zaten, zarf	zaten	 zarf		already	Yeter zaten!	Enough already!
+telefon, isim	telefon	 isim		telephone		
+eğitim, isim	eğitim	 isim		education	İngilizce eğitimi yapıyorum.	I'm studying English.
+deniz, isim	deniz	 isim		sea		
+ikinci, sıfat	ikinci	 sıfat		second		
+kalkmak, fiil	kalkmak	 fiil		get up		
+hatta, zarf	hatta	 zarf		even	Hatta onu düşünme.	Don't even think of it.
+etki, isim	etki	 isim		effect		
+gelişmek, fiil	gelişmek	 fiil		thrive, grow, improve	Teknoloji her zaman gelişmektedir.	Technology is always improving.
+geçen, sıfat	geçen	 sıfat		last		
+vücut, isim	vücut	 isim		body		
+düşünce, isim	düşünce	 isim		idea	Düşünce özgürdür.	Thought is free.
+milyon, isim	milyon	 isim		million		
+oynamak, fiil	oynamak	 fiil		play		
+değişmek, fiil	değişmek	 fiil		changing	Bir şey değişmek zorunda.	Something has to change.
+temel, isim	temel	 isim		basic		
+yaratmak, fiil	yaratmak	 fiil		create		
+ulaşmak, fiil	ulaşmak	 fiil		reach		
+sanmak, fiil	sanmak	 fiil		suppose		
+geçirmek, fiil	geçirmek	 fiil		spend	Hayatımı seninle geçirmek istiyorum.	I want to spend my life with you.
+kültür, isim	kültür	 isim		culture		
+kurmak, fiil	kurmak	 fiil		establish		
+fakat, bağlaç	fakat	 bağlaç		but	Hastaydı fakat okula gitti.	He was sick, but he went to school.
+buna, zamir	buna	 zamir		this		
+resim, isim	resim	 isim		picture		
+ışık, isim	ışık	 isim		light		
+içmek, fiil	içmek	 fiil		drink		
+hanım, isim	hanım	 isim		lady		
+hizmet, isim	hizmet	 isim		service		
+ihtiyaç, isim	ihtiyaç	 isim		need		
+nokta, isim	nokta	 isim		point		
+yön, isim	yön	 isim		direction		
+evet, zarf	evet	 zarf		Yeah		
+oyun, isim	oyun	 isim		game		
+artmak, fiil	artmak	 fiil		increase		
+yeniden, zarf	yeniden	 zarf		again		
+işlem, isim	işlem	 isim		operation	Bu çok pahalı bir işlem.	It's a very expensive process.
+kısa, sıfat	kısa	 sıfat		short		
+kolay, sıfat	kolay	 sıfat		easy		
+hangi, zarf	hangi	 zarf		which		
+oran, isim	oran	 isim		rate	Aylık oran ne kadardır?	How much is the monthly rate?
+aslında, zarf	aslında	 zarf		actually		
+kabul etmek, fiil	kabul etmek	 fiil		to accept		
+orada, isim	orada	 isim		there		
+dikkat, isim	dikkat	 isim		attention		
+uzak, sıfat	uzak	 sıfat		far		
+bilgisayar, isim	bilgisayar	 isim		computer		
+gelecek, isim	gelecek	 isim		the future		
+görünmek, fiil	görünmek	 fiil		seem		
+örneğin, edat	örneğin	 edat		for example		
+oğul, isim	oğul	 isim		son		
+dinlemek, fiil	dinlemek	 fiil		listen		
+uygun, sıfat	uygun	 sıfat		convenient, appropriate	Online bankacılık çok uygun.	Online banking is very convenient.
+lira, isim	lira	 isim		lira		
+üretim, isim	üretim	 isim		production	Üretim tarihi kapağın üzerinde.	The date of manufacture is shown on the lid.
+dakika, isim	dakika	 isim		minute		
+unutmak, fiil	unutmak	 fiil		forget		
+yürümek, fiil	yürümek	 fiil		walk		
+böylece, zarf	böylece	 zarf		thus, so	Çok çalış böylece başarısız olmazsın.	Study hard so you don't fail.
+kötü, sıfat	kötü	 sıfat		bad		
+araba, isim	araba	 isim		car		
+ağız, isim	ağız	 isim		mouth		
+duygu, isim	duygu	 isim		emotion	Onu seviyorum, ama duygu karşılıklı değil.	I love her, but the feeling is not mutual.
+uygulamak, fiil	uygulamak	 fiil		apply	Planı uygulamak mümkün değil.	It is impossible to put the plan into practice.
+hâlâ, zarf	hâlâ	 zarf		still	Ev ödevini hâlâ bitirmedin mi?	Have you finished your homework yet?
+örnek, isim	örnek	 isim		sample		
+birçok, zamir	birçok	 zamir		many		
+izlemek, fiil	izlemek	 fiil		watch		
+derece, isim	derece	 isim		degree		
+mümkün, sıfat	mümkün	 sıfat		possible		
+şöyle, zarf	şöyle	 zarf		so		
+duvar, isim	duvar	 isim		wall		
+on, sıfat	on	 sıfat		front		
+sanat, isim	sanat	 isim		art		
+ana, isim	ana	 isim		mother		
+hastalık, isim	hastalık	 isim		disease		
+öğrenci, isim	öğrenci	 isim		student		
+televizyon, isim	televizyon	 isim		television		
+yöntem, isim	yöntem	 isim		method	Senin İngilizce öğretme yöntemin saçmadır.	Your method of teaching English is absurd.
+masa, isim	masa	 isim		table		
+ölmek, fiil	ölmek	 fiil		die		
+takım, isim	takım	 isim		team		
+üst, sıfat	üst	 sıfat		top		
+kafa, isim	kafa	 isim		head		
+müzik, isim	müzik	 isim		music		
+ayrılmak, fiil	ayrılmak	 fiil		leave		
+enerji, isim	enerji	 isim		energy		
+üniversite, isim	üniversite	 isim		university		
+spor, isim	spor	 isim		spore		
+türlü, isim	türlü	 isim		various		
+can, isim	can	 isim		soul		
+rağmen, zarf	rağmen	 zarf		despite, in spite	Yağmura rağmen dışarı çıktım.	I went out in spite of the rain.
+kısım, isim	kısım	 isim		part		
+ölüm, isim	ölüm	 isim		death		
+sürekli, sıfat	sürekli	 sıfat		continuous		
+sağlık, isim	sağlık	 isim		health		
+çeşitli, sıfat	çeşitli	 sıfat		various	Çeşitli şeyler hakkında konuştuk.	We talked about various things.
+bundan, zarf	bundan	 zarf		from this		
+hissetmek, fiil	hissetmek	 fiil		feel		
+oysa, zarf	oysa	 zarf		whereas	O klasik müzik seviyor oysa ben cazı tercih ederim.	She loves classical music, whereas I prefer jazz.
+sabah, isim	sabah	 isim		morning		
+internet, isim	internet	 isim		Internet		
+teknik, isim	teknik	 isim		technical		
+dışarı, isim	dışarı	 isim		out		
+merkez, isim	merkez	 isim		center		
+ortam, isim	ortam	 isim		environment		
+yerine, zarf	yerine	 zarf		instead		
+düzey, isim	düzey	 isim		level	İngilizce düzeyimi yükselteceğim.	I'm going to raise my English level.
+köy, isim	köy	 isim		village		
+yönetim, isim	yönetim	 isim		governance	Okul yönetimi Tom'u suçladı.	The school administration blamed Tom.
+aşağı, isim	aşağı	 isim		down		
+cevap, isim	cevap	 isim		reply		
+yatmak, fiil	yatmak	 fiil		lie		
+toprak, isim	toprak	 isim		soil		
+isim, isim	isim	 isim		name		
+akşam, isim	akşam	 isim		evening		
+araştırma, isim	araştırma	 isim		research		
+götürmek, fiil	götürmek	 fiil		take	Kediyi bugün veterinere götürmek zorundayım.	I have to take the cat to the vet today.
+katılmak, fiil	katılmak	 fiil		join	Grubunuza katılmak istiyorum.	I'd like to join your group.
+yoksa, zarf	yoksa	 zarf		or		
+kurulmak, fiil	kurulmak	 fiil		be built		
+ödemek, fiil	ödemek	 fiil		pay		
+sanki, zarf	sanki	 zarf		if		
+kan, isim	kan	 isim		blood		
+hasta, isim	hasta	 isim		patient		
+şehir, isim	şehir	 isim		city		
+inmek, fiil	inmek	 fiil		get off		
+sunmak, fiil	sunmak	 fiil		offer		
+bilinmek, fiil	bilinmek	 fiil		to be known		
+hafta, isim	hafta	 isim		week		
+trafik, isim	trafik	 isim		traffic		
+hesap, isim	hesap	 isim		account		
+otomobil, isim	otomobil	 isim		car		
+yabancı, isim	yabancı	 isim		foreign		
+davranış, isim	davranış	 isim		Behaviour		
+mutfak, isim	mutfak	 isim		kitchen		
+kent, isim	kent	 isim		city		
+bazen, zarf	bazen	 zarf		sometimes		
+belli, sıfat	belli	 sıfat		certain, clear	Senin hatalı olduğun bellidir.	It's clear that you're wrong.
+ayrı, sıfat	ayrı	 sıfat		separate		
+fiyat, isim	fiyat	 isim		price		
+hakkında, zarf	hakkında	 zarf		about		
+kaldırmak, fiil	kaldırmak	 fiil		remove		
+kol, isim	kol	 isim		arm		
+yalnız, sıfat	yalnız	 sıfat		alone		
+hazırlamak, fiil	hazırlamak	 fiil		prepare		
+cam, isim	cam	 isim		glass	Ben cam bir vazo aldım.	I bought a glass vase.
+sonunda, zarf	sonunda	 zarf		finally		
+yavaş, sıfat	yavaş	 sıfat		slow		
+gerekli, sıfat	gerekli	 sıfat		necessary		
+önem, isim	önem	 isim		importance		
+koca, isim	koca	 isim		husband		
+yanlış, sıfat	yanlış	 sıfat		false		
+varlık, isim	varlık	 isim		presence		
+art, sıfat	art	 sıfat		increased		
+ilgi, isim	ilgi	 isim		interest		
+sana, zamir	sana	 zamir		you		
+satış, isim	satış	 isim		sales		
+içeri, isim	içeri	 isim		inside		
+doğal, sıfat	doğal	 sıfat		natural	Kuşlar böceklerin doğal düşmanıdır.	Birds are natural enemies of insects.
+sahip olmak, fiil	sahip olmak	 fiil		have		
+ekonomik, sıfat	ekonomik	 sıfat		economic		
+acı, isim	acı	 isim		pain		
+hayır, edat	hayır	 edat		no		
+korumak, fiil	korumak	 fiil		protect		
+kat, isim	kat	 isim		floor		
+ekonomi, isim	ekonomi	 isim		economy		
+genel, sıfat	genel	 sıfat		general		
+belirtmek, fiil	belirtmek	 fiil		specify, express	Memnun olmadığımı belirtmek için yazıyorum.	I am writing to express my dissatisfaction.
+fotoğraf, isim	fotoğraf	 isim		photo		
+hayvan, isim	hayvan	 isim		animal		
+savaş, isim	savaş	 isim		war		
+mal, isim	mal	 isim		goods		
+saç, isim	saç	 isim		hair		
+kaybetmek, fiil	kaybetmek	 fiil		lose		
+kalan, isim	kalan	 isim		remaining		
+değiştirmek, fiil	değiştirmek	 fiil		change		
+dört, sıfat	dört	 sıfat		four		
+gerçekten, zarf	gerçekten	 zarf		really		
+sayfa, isim	sayfa	 isim		page		
+teknoloji, isim	teknoloji	 isim		technology		
+kurum, isim	kurum	 isim		institution	Kurum 1960'ların sonlarında kuruldu.	The institution was established in the late 1960s.
+beş, sıfat	beş	 sıfat		five		
+sektör, isim	sektör	 isim		sector		
+geniş, sıfat	geniş	 sıfat		wide, board	İyi filmler ufuklarımızı genişletir.	Good films broaden our horizons.
+kağıt, isim	kağıt	 isim		paper		
+koku, isim	koku	 isim		smell		
+sağ, sıfat	sağ	 sıfat		right		
+sıcak, sıfat	sıcak	 sıfat		hot		
+yüzyıl, isim	yüzyıl	 isim		century		
+cadde, isim	cadde	 isim		Street		
+pazar, isim	pazar	 isim		Sunday		
+sürdürmek, fiil	sürdürmek	 fiil		maintain	Birinin ününü sürdürmek zordur.	It is hard to maintain one's reputation.
+kullanım, isim	kullanım	 isim		use		
+sınıf, isim	sınıf	 isim		class		
+aşk, isim	aşk	 isim		love		
+doğmak, fiil	doğmak	 fiil		be born		
+ağır, sıfat	ağır	 sıfat		heavy		
+tekrar, zarf	tekrar	 zarf		again		
+güneş, isim	güneş	 isim		sun		
+sigara, isim	sigara	 isim		cigaret		
+ağaç, isim	ağaç	 isim		tree		
+kelime, isim	kelime	 isim		word		
+bina, isim	bina	 isim		building		
+eş, sıfat	eş	 sıfat		spouse		
+kaçmak, fiil	kaçmak	 fiil		escape		
+parti, isim	parti	 isim		party		
+yatak, isim	yatak	 isim		bed		
+yazar, isim	yazar	 isim		author		
+kulak, isim	kulak	 isim		ear		
+öğretmen, isim	öğretmen	 isim		teacher		
+sebep, isim	sebep	 isim		reason		
+sol, sıfat	sol	 sıfat		left		
+peki, edat	peki	 edat		Well		
+yağ, isim	yağ	 isim		oil		
+yüzden, zarf	yüzden	 zarf		so		
+anlaşılmak, fiil	anlaşılmak	 fiil		be understood		
+varmak, fiil	varmak	 fiil		arrive		
+gülmek, fiil	gülmek	 fiil		laugh		
+kural, isim	kural	 isim		rule		
+satmak, fiil	satmak	 fiil		sell		
+şiir, isim	şiir	 isim		poem	Şarap, şişedeki bir şiirdir.	Wine is a poem in a bottle.
+göndermek, fiil	göndermek	 fiil		send	Bir telgraf göndermek istiyorum.	I want to send a telegram.
+başarı, isim	başarı	 isim		success		
+firma, isim	firma	 isim		company		
+hükümet, isim	hükümet	 isim		government		
+kalp, isim	kalp	 isim		heart		
+kesmek, fiil	kesmek	 fiil		cut		
+proje, isim	proje	 isim		project		
+şart, isim	şart	 isim		condition		
+hız, isim	hız	 isim		speed		
+köşe, isim	köşe	 isim		corner		
+vurmak, fiil	vurmak	 fiil		hit		
+model, isim	model	 isim		model		
+balık, isim	balık	 isim		the fish		
+piyasa, isim	piyasa	 isim		market	Japonya'da bu mallar için piyasa yoktur.	There is no market for these goods in Japan.
+görüş, isim	görüş	 isim		opinion	Kitabım hakkındaki görüşünüz nedir?	What's your take on my book?
+bura, isim	bura	 isim		bura		
+hazırlanmak, fiil	hazırlanmak	 fiil		prepare		
+miktar, isim	miktar	 isim		quantity	Büyük miktarda para bağışladı.	He donated a lot of money.
+birinci, sıfat	birinci	 sıfat		first		
+meydan, isim	meydan	 isim		square		
+ölçü, isim	ölçü	 isim		measure		
+seçmek, fiil	seçmek	 fiil		select		
+uygulanmak, fiil	uygulanmak	 fiil		administration		
+bahçe, isim	bahçe	 isim		garden		
+sevgi, isim	sevgi	 isim		love		
+ekmek, isim	ekmek	 isim		bread		
+boyunca, zarf	boyunca	 zarf		throughout		
+koşmak, fiil	koşmak	 fiil		run		
+dolu, isim	dolu	 isim		full		
+kuruluş, isim	kuruluş	 isim		establishment		
+saye, isim	saye	 isim		SA		
+korkmak, fiil	korkmak	 fiil		fear		
+yardım, isim	yardım	 isim		help		
+karşılaşmak, fiil	karşılaşmak	 fiil		encounter		
+malzeme, isim	malzeme	 isim		material		
+hoş, sıfat	hoş	 sıfat		pleasant		
+köpek, isim	köpek	 isim		dog		
+ünlü, sıfat	ünlü	 sıfat		famous		
+büyümek, fiil	büyümek	 fiil		grow		
+dolaşmak, fiil	dolaşmak	 fiil		wander		
+oldukça, zarf	oldukça	 zarf		quite		
+üstelik, zarf	üstelik	 zarf		moreover		
+yaşanmak, fiil	yaşanmak	 fiil		to live		
+beyaz, sıfat	beyaz	 sıfat		white		
+istek, isim	istek	 isim		claim		
+öte, sıfat	öte	 sıfat		beyond		
+denmek, fiil	denmek	 fiil		you called		
+kardeş, isim	kardeş	 isim		brother		
+çekilmek, fiil	çekilmek	 fiil		withdraw		
+nerede, zarf	nerede	 zarf		where		
+çalmak, fiil	çalmak	 fiil		play		
+izin, isim	izin	 isim		permission		
+korku, isim	korku	 isim		fear		
+meslek, isim	meslek	 isim		job		
+polis, isim	polis	 isim		police		
+yalnızca, zarf	yalnızca	 zarf		just		
+açıklamak, fiil	açıklamak	 fiil		explain		
+fikir, isim	fikir	 isim		idea		
+hızlı, sıfat	hızlı	 sıfat		fast		
+pencere, isim	pencere	 isim		window		
+uğraşmak, fiil	uğraşmak	 fiil		deal		
+taş, isim	taş	 isim		rock		
+ateş, isim	ateş	 isim		fire		
+fark, isim	fark	 isim		difference		
+yetmek, fiil	yetmek	 fiil		suffice		
+çoğu, sıfat	çoğu	 sıfat		most		
+kimi, sıfat	kimi	 sıfat		who		
+koşul, isim	koşul	 isim		condition		
+mahalle, isim	mahalle	 isim		neighborhood		
+mutlaka, zarf	mutlaka	 zarf		surely		
+tane, isim	tane	 isim		piece		
+üretmek, fiil	üretmek	 fiil		produce		
+üstüne, zarf	üstüne	 zarf		over		
+dayanmak, fiil	dayanmak	 fiil		withstand		
+ince, sıfat	ince	 sıfat		thin		
+kaç, sıfat	kaç	 sıfat		How many		
+ortak, isim	ortak	 isim		partner		
+tip, isim	tip	 isim		medicine		
+görüntü, isim	görüntü	 isim		image		
+beri, edat	beri	 edat		since		
+ders, isim	ders	 isim		lesson		
+başkan, isim	başkan	 isim		president		
+karşılık, isim	karşılık	 isim		provisions		
+kurtulmak, fiil	kurtulmak	 fiil		escape		
+numara, isim	numara	 isim		number		
+defa, isim	defa	 isim		times		
+edilmek, fiil	edilmek	 fiil		to be		
+batı, isim	batı	 isim		West		
+fark etmek, fiil	fark etmek	 fiil		to notice		
+herhangi bir, sıfat	herhangi bir	 sıfat		any		
+sinema, isim	sinema	 isim		cinema		
+değişik, sıfat	değişik	 sıfat		different		
+hedef, isim	hedef	 isim		target		
+uyumak, fiil	uyumak	 fiil		sleep		
+dost, isim	dost	 isim		friend		
+yanmak, fiil	yanmak	 fiil		burn		
+anlayış, isim	anlayış	 isim		understanding		
+asıl, sıfat	asıl	 sıfat		noble		
+basmak, fiil	basmak	 fiil		print		
+kenar, isim	kenar	 isim		edge		
+kontrol, isim	kontrol	 isim		control		
+çevirmek, fiil	çevirmek	 fiil		turn		
+din, isim	din	 isim		religion		
+güçlü, sıfat	güçlü	 sıfat		strong		
+henüz, zarf	henüz	 zarf		yet		
+plan, isim	plan	 isim		plan		
+beyin, isim	beyin	 isim		brain		
+elektrik, isim	elektrik	 isim		electricity		
+karı, isim	karı	 isim		wife		
+üstünde, isim	üstünde	 isim		on		
+et, isim	et	 isim		meat		
+sağlanmak, fiil	sağlanmak	 fiil		to provide		
+söylenmek, fiil	söylenmek	 fiil		grouch		
+çizgi, isim	çizgi	 isim		line		
+uç, sıfat	uç	 sıfat		three		
+üye, isim	üye	 isim		member		
+cilt, isim	cilt	 isim		skin		
+ruh, isim	ruh	 isim		soul		
+sevgili, sıfat	sevgili	 sıfat		dear		
+yaklaşmak, fiil	yaklaşmak	 fiil		approach		
+süreç, isim	süreç	 isim		process		
+bakış, isim	bakış	 isim		view		
+bilim, isim	bilim	 isim		science		
+ileri, zarf	ileri	 zarf		next		
+ifade, isim	ifade	 isim		expression		
+beden, isim	beden	 isim		body		
+hatırlamak, fiil	hatırlamak	 fiil		remember		
+kaza, isim	kaza	 isim		accident		
+iyice, zarf	iyice	 zarf		thoroughly		
+dağ, isim	dağ	 isim		mountain		
+kapatmak, fiil	kapatmak	 fiil		close		
+adım, isim	adım	 isim		step		
+ciddi, sıfat	ciddi	 sıfat		serious		
+çözüm, isim	çözüm	 isim		solution		
+etkilemek, fiil	etkilemek	 fiil		affect		
+belediye, isim	belediye	 isim		municipality		
+gelişme, isim	gelişme	 isim		development		
+seçim, isim	seçim	 isim		selection		
+ağlamak, fiil	ağlamak	 fiil		cry		
+bağlı, zarf	bağlı	 zarf		connected		
+kavram, isim	kavram	 isim		concept		
+artırmak, fiil	artırmak	 fiil		increase		
+faaliyet, isim	faaliyet	 isim		activity		
+zarar, isim	zarar	 isim		damage		
+derin, sıfat	derin	 sıfat		deep		
+salon, isim	salon	 isim		living room		
+çeşit, isim	çeşit	 isim		kind		
+kesilmek, fiil	kesilmek	 fiil		be cut		
+seyretmek, fiil	seyretmek	 fiil		watch		
+birden, zarf	birden	 zarf		suddenly		
+içermek, fiil	içermek	 fiil		contain		
+sayılmak, fiil	sayılmak	 fiil		be counted		
+toplamak, fiil	toplamak	 fiil		collect		
+aşmak, fiil	aşmak	 fiil		exceed		
+bağırmak, fiil	bağırmak	 fiil		yell		
+sorumluluk, isim	sorumluluk	 isim		responsibility		
+davranmak, fiil	davranmak	 fiil		behave		
+mektup, isim	mektup	 isim		letter		
+soğuk, sıfat	soğuk	 sıfat		cold		
+canlı, sıfat	canlı	 sıfat		live		
+idi, ek eylem	idi	 ek eylem		was		
+makine, isim	makine	 isim		machine		
+yararlanmak, fiil	yararlanmak	 fiil		benefit		
+yaşlı, sıfat	yaşlı	 sıfat		old		
+boş, sıfat	boş	 sıfat		null		
+acaba, zarf	acaba	 zarf		I wonder		
+maç, isim	maç	 isim		match		
+yönetici, isim	yönetici	 isim		manager		
+getirilmek, fiil	getirilmek	 fiil		to be		
+metre, isim	metre	 isim		meter		
+tutulmak, fiil	tutulmak	 fiil		be held		
+kalite, isim	kalite	 isim		quality		
+bitki, isim	bitki	 isim		plant		
+değişiklik, isim	değişiklik	 isim		alteration		
+ilaç, isim	ilaç	 isim		medicine		
+kredi, isim	kredi	 isim		credit		
+yasa, isim	yasa	 isim		law		
+başarılı, sıfat	başarılı	 sıfat		successful		
+birer, sıfat	birer	 sıfat		a		
+imkan, isim	imkan	 isim		facility		
+ceza, isim	ceza	 isim		criminal		
+her şey, sıfat	her şey	 sıfat		everything		
+incelemek, fiil	incelemek	 fiil		examine		
+top, isim	top	 isim		ball		
+uzman, isim	uzman	 isim		expert		
+doldurmak, fiil	doldurmak	 fiil		fill		
+kanal, isim	kanal	 isim		channel		
+mekân, isim	mekân	 isim		place		
+uymak, fiil	uymak	 fiil		comply		
+yıllık, zarf	yıllık	 zarf		yearly		
+dolayısıyla, zarf	dolayısıyla	 zarf		because of		
+yazılmak, fiil	yazılmak	 fiil		sign up		
+ait, sıfat	ait	 sıfat		belonging to		
+parmak, isim	parmak	 isim		finger		
+saymak, fiil	saymak	 fiil		count		
+atılmak, fiil	atılmak	 fiil		plunge		
+belirlemek, fiil	belirlemek	 fiil		determine		
+normal, sıfat	normal	 sıfat		normal		
+hele, bağlaç	hele	 bağlaç		especially		
+ilke, isim	ilke	 isim		principle		
+kırmızı, sıfat	kırmızı	 sıfat		red		
+rol, isim	rol	 isim		role		
+şarkı, isim	şarkı	 isim		song		
+eleman, isim	eleman	 isim		element		
+hazır, sıfat	hazır	 sıfat		ready		
+benzemek, fiil	benzemek	 fiil		look alike		
+bir şey, zamir	bir şey	 zamir		something		
+hoca, isim	hoca	 isim		teacher		
+boy, isim	boy	 isim		size		
+günlük, isim	günlük	 isim		daily		
+politika, isim	politika	 isim		policy		
+suç, isim	suç	 isim		crime		
+niye, zarf	niye	 zarf		why		
+sahne, isim	sahne	 isim		scene		
+sokmak, fiil	sokmak	 fiil		sting		
+adet, isim	adet	 isim		piece		
+koltuk, isim	koltuk	 isim		armchair		
+kurtarmak, fiil	kurtarmak	 fiil		rescue		
+sanatçı, isim	sanatçı	 isim		artist		
+tercih etmek, fiil	tercih etmek	 fiil		prefer		
+uzanmak, fiil	uzanmak	 fiil		reach		
+aşama, isim	aşama	 isim		stage		
+eklemek, fiil	eklemek	 fiil		add		
+orman, isim	orman	 isim		Forest		
+ayırmak, fiil	ayırmak	 fiil		reserve		
+düzen, isim	düzen	 isim		order		
+faiz, isim	faiz	 isim		interest		
+genellikle, zarf	genellikle	 zarf		usually		
+her zaman, zarf	her zaman	 zarf		always		
+hikaye, isim	hikaye	 isim		story		
+hücre, isim	hücre	 isim		cell		
+ora, isim	ora	 isim		ora		
+roman, isim	roman	 isim		novel		
+vergi, isim	vergi	 isim		tax		
+yakmak, fiil	yakmak	 fiil		burn		
+ağabey, isim	ağabey	 isim		brother		
+basın, isim	basın	 isim		Press		
+destek, isim	destek	 isim		support		
+giymek, fiil	giymek	 fiil		wear		
+hata, isim	hata	 isim		error		
+sınır, isim	sınır	 isim		anger		
+birlik, isim	birlik	 isim		unity		
+eser, isim	eser	 isim		work		
+karşılamak, fiil	karşılamak	 fiil		meet		
+yarı, sıfat	yarı	 sıfat		half		
+yeterli, sıfat	yeterli	 sıfat		enough		
+birey, isim	birey	 isim		individual		
+karanlık, sıfat	karanlık	 sıfat		dark		
+otobüs, isim	otobüs	 isim		bus		
+sanayi, isim	sanayi	 isim		industry		
+bebek, isim	bebek	 isim		baby		
+vatandaş, isim	vatandaş	 isim		citizen		
+bakan, isim	bakan	 isim		minister		
+kere, isim	kere	 isim		times		
+millet, isim	millet	 isim		nation		
+reklam, isim	reklam	 isim		advertisement		
+yükselmek, fiil	yükselmek	 fiil		rise		
+boyut, isim	boyut	 isim		size		
+dergi, isim	dergi	 isim		magazine		
+enflasyon, isim	enflasyon	 isim		inflation		
+sosyal, sıfat	sosyal	 sıfat		social		
+birisi, zamir	birisi	 zamir		someone		
+geçmiş, isim	geçmiş	 isim		past		
+hastahane, isim	hastahane	 isim		hospitals		
+olma, isim	olma	 isim		being		
+toplantı, isim	toplantı	 isim		meeting		
+gazeteci, isim	gazeteci	 isim		journalist		
+içerisi, isim	içerisi	 isim		within		
+inanç, isim	inanç	 isim		faith		
+nitelik, isim	nitelik	 isim		quality		
+üzeri, isim	üzeri	 isim		via		
+bitirmek, fiil	bitirmek	 fiil		finish		
+gerçekleşmek, fiil	gerçekleşmek	 fiil		materialize		
+giriş, isim	giriş	 isim		login		
+rahat, sıfat	rahat	 sıfat		comfortable		
+toplam, isim	toplam	 isim		total		
+beraber, zarf	beraber	 zarf		together		
+dükkan, isim	dükkan	 isim		store		
+gizli, sıfat	gizli	 sıfat		hidden		
+benzer, sıfat	benzer	 sıfat		similar		
+deri, isim	deri	 isim		skin		
+dönüşmek, fiil	dönüşmek	 fiil		turn		
+mücadele, isim	mücadele	 isim		struggle		
+problem, isim	problem	 isim		problem		
+servis, isim	servis	 isim		service		
+tedavi, isim	tedavi	 isim		treatment		
+yeşil, sıfat	yeşil	 sıfat		green		
+bakanlık, isim	bakanlık	 isim		ministry		
+baskı, isim	baskı	 isim		printing		
+tepki, isim	tepki	 isim		reaction		
+cümle, isim	cümle	 isim		sentence		
+dilemek, fiil	dilemek	 fiil		wish		
+özgürlük, isim	özgürlük	 isim		freedom		
+gene, zarf	gene	 zarf		again		
+kimlik, isim	kimlik	 isim		ID		
+mesele, isim	mesele	 isim		issue		
+üçüncü, sıfat	üçüncü	 sıfat		third		
+belirlenmek, fiil	belirlenmek	 fiil		to be determined		
+değerlendirmek, fiil	değerlendirmek	 fiil		evaluate		
+ilginç, sıfat	ilginç	 sıfat		interesting		
+sürücü, isim	sürücü	 isim		driver		
+süt, isim	süt	 isim		milk		
+yakalamak, fiil	yakalamak	 fiil		catch		
+eşya, isim	eşya	 isim		goods		
+uluslararası, sıfat	uluslararası	 sıfat		international		
+aday, isim	aday	 isim		candidate		
+ağırlık, isim	ağırlık	 isim		weight		
+milyar, isim	milyar	 isim		billion		
+sağlılklı, sıfat	sağlılklı	 sıfat		sağlılkl the		
+sıkıntı, isim	sıkıntı	 isim		trouble		
+Tanrı, isim	Tanrı	 isim		God		
+tavır, isim	tavır	 isim		attitude		
+toplumsal, sıfat	toplumsal	 sıfat		social		
+yayın, isim	yayın	 isim		broadcasting		
+dikkat etmek, fiil	dikkat etmek	 fiil		to be careful		
+son derece, sıfat	son derece	 sıfat		extremely		
+toplanmak, fiil	toplanmak	 fiil		collect		
+yatırım, isim	yatırım	 isim		investment		
+hafif, sıfat	hafif	 sıfat		light		
+karışmak, fiil	karışmak	 fiil		interfere		
+tehlike, isim	tehlike	 isim		danger		
+vakit, isim	vakit	 isim		time		
+daire, isim	daire	 isim		circle		
+fırsat, isim	fırsat	 isim		opportunity		
+işlemek, fiil	işlemek	 fiil		handle		
+karıştırmak, fiil	karıştırmak	 fiil		mix		
+katkı, isim	katkı	 isim		additive		
+öykü, isim	öykü	 isim		story		
+tamamen, zarf	tamamen	 zarf		completely		
+uçak, isim	uçak	 isim		airplane		
+yanıt, isim	yanıt	 isim		response		
+doğa, isim	doğa	 isim		nature		
+evlenmek, fiil	evlenmek	 fiil		get married		
+burun, isim	burun	 isim		nose		
+çıkar, isim	çıkar	 isim		interest		
+elbette, zarf	elbette	 zarf		of course		
+işçi, isim	işçi	 isim		worker		
+işletme, isim	işletme	 isim		operating		
+kısaca, zarf	kısaca	 zarf		briefly		
+mağaza, isim	mağaza	 isim		shop		
+medya, isim	medya	 isim		media		
+yüzünden, zarf	yüzünden	 zarf		because		
+artış, isim	artış	 isim		increase		
+çıkarılmak, fiil	çıkarılmak	 fiil		to be removed		
+kamu, isim	kamu	 isim		public		
+sigorta, isim	sigorta	 isim		insurance		
+yaz, isim	yaz	 isim		summer		
+yürek, isim	yürek	 isim		heart		
+belge, isim	belge	 isim		document		
+çaba, isim	çaba	 isim		effort		
+her gün, zarf	her gün	 zarf		everyday		
+ifade etmek, fiil	ifade etmek	 fiil		express		
+risk, isim	risk	 isim		risk		
+söz etmek, fiil	söz etmek	 fiil		mention		
+sözcük, isim	sözcük	 isim		word		
+demokrasi, isim	demokrasi	 isim		democracy		
+tuz, isim	tuz	 isim		salt		
+cami, isim	cami	 isim		mosque		
+çağ, isim	çağ	 isim		age		
+düşük, sıfat	düşük	 sıfat		low		
+etraf, isim	etraf	 isim		surroundings		
+hızla, zarf	hızla	 zarf		quickly		
+olanak, isim	olanak	 isim		possibility		
+organ, isim	organ	 isim		organ		
+öldürmek, fiil	öldürmek	 fiil		kill		
+öteki, sıfat	öteki	 sıfat		other		
+sene, isim	sene	 isim		year		
+bozulmak, fiil	bozulmak	 fiil		addle		
+ilgilenmek, fiil	ilgilenmek	 fiil		be interested in		
+meyve, isim	meyve	 isim		fruit		
+takılmak, fiil	takılmak	 fiil		hang out		
+tatlı, sıfat	tatlı	 sıfat		dessert		
+bacak, isim	bacak	 isim		leg		
+değişim, isim	değişim	 isim		change		
+kanun, isim	kanun	 isim		law		
+rüzgar, isim	rüzgar	 isim		wind		
+cumhuriyet, isim	cumhuriyet	 isim		republic		
+geliştirmek, fiil	geliştirmek	 fiil		develop		
+tarz, isim	tarz	 isim		style		
+yedi, sıfat	yedi	 sıfat		seven		
+azalmak, fiil	azalmak	 fiil		decrease		
+bağlamak, fiil	bağlamak	 fiil		connect		
+cep telefonu, isim	cep telefonu	 isim		mobile phone		
+iletişim, isim	iletişim	 isim		Contact		
+müdür, isim	müdür	 isim		manager		
+otel, isim	otel	 isim		hotel		
+yayımlanmak, fiil	yayımlanmak	 fiil		to be published		
+zevk, isim	zevk	 isim		taste		
+binmek, fiil	binmek	 fiil		ride		
+güvenlik, isim	güvenlik	 isim		security		
+hukuk, isim	hukuk	 isim		law		
+kılmak, fiil	kılmak	 fiil		render		
+modern, sıfat	modern	 sıfat		modern		
+okur, isim	okur	 isim		reader		
+silah, isim	silah	 isim		weapon		
+talep, isim	talep	 isim		request		
+yıldız, isim	yıldız	 isim		star		
+yoğun, sıfat	yoğun	 sıfat		intensive		
+asker, isim	asker	 isim		soldier		
+basit, sıfat	basit	 sıfat		simple		
+denilmek, fiil	denilmek	 fiil		to be called		
+gaz, isim	gaz	 isim		gas		
+uygulama, isim	uygulama	 isim		application		
+üretilmek, fiil	üretilmek	 fiil		produce		
+beyan, isim	beyan	 isim		declaration		
+besin, isim	besin	 isim		food		
+dün, zarf	dün	 zarf		yesterday		
+görüşmek, fiil	görüşmek	 fiil		discuss		
+yaklaşık, sıfat	yaklaşık	 sıfat		about		
+alışveriş, isim	alışveriş	 isim		shopping		
+bilinç, isim	bilinç	 isim		consciousness		
+çerçeve, isim	çerçeve	 isim		frame		
+lazım, sıfat	lazım	 sıfat		necessary		
+mevcut, isim	mevcut	 isim		available		
+tüketici, isim	tüketici	 isim		consumer		
+uzatmak, fiil	uzatmak	 fiil		extend		
+yönelik, sıfat	yönelik	 sıfat		intended		
+at, isim	at	 isim		horse		
+bağlanmak, fiil	bağlanmak	 fiil		connect		
+mesela, edat	mesela	 edat		e.g		
+neredeyse, zarf	neredeyse	 zarf		almost		
+site, isim	site	 isim		sites		
+yardımcı olmak, fiil	yardımcı olmak	 fiil		help		
+abla, isim	abla	 isim		sister		
+çiçek, isim	çiçek	 isim		flower		
+hepsi, zamir	hepsi	 zamir		all		
+saygı, isim	saygı	 isim		respect		
+ücret, isim	ücret	 isim		fee		
+yetenek, isim	yetenek	 isim		ability		
+kilo, isim	kilo	 isim		kilo		
+paylaşmak, fiil	paylaşmak	 fiil		share		
+sert, sıfat	sert	 sıfat		hard		
+yanı sıra, zarf	yanı sıra	 zarf		Besides the		
+çay, isim	çay	 isim		tea		
+gider, isim	gider	 isim		expense		
+kesin, sıfat	kesin	 sıfat		exact		
+zengin, sıfat	zengin	 sıfat		rich		
+asla, zarf	asla	 zarf		never		
+laf, isim	laf	 isim		word		
+örgüt, isim	örgüt	 isim		organization		
+ticaret, isim	ticaret	 isim		trade		
+yaptırmak, fiil	yaptırmak	 fiil		have it made		
+boyun, isim	boyun	 isim		neck		
+cihaz, isim	cihaz	 isim		device		
+denge, isim	denge	 isim		balance		
+giderek, zarf	giderek	 zarf		increasingly		
+sırt, isim	sırt	 isim		back		
+dolayı, zarf	dolayı	 zarf		because		
+kahve, isim	kahve	 isim		coffee		
+kas, isim	kas	 isim		eyebrow		
+meclis, isim	meclis	 isim		council		
+öteki, isim	öteki	 isim		other		
+uğraşmak, fiil	uğraşmak	 fiil		deal		
+adres, isim	adres	 isim		address		
+belirtilmek, fiil	belirtilmek	 fiil		to be specified		
+paşa, isim	paşa	 isim		Pasha		
+sıcaklık, isim	sıcaklık	 isim		temperature		
+tamam, sıfat	tamam	 sıfat		OK		
+güven, isim	güven	 isim		confidence		
+marka, isim	marka	 isim		brand		
+yaprak, isim	yaprak	 isim		leaf		
+yarar, isim	yarar	 isim		benefit		
+yayılmak, fiil	yayılmak	 fiil		spread		
+akmak, fiil	akmak	 fiil		flow		
+çizmek, fiil	çizmek	 fiil		draw		
+düşünülmek, fiil	düşünülmek	 fiil		to be considered		
+gönül, isim	gönül	 isim		heart		
+hayal, isim	hayal	 isim		dream		
+ilerlemek, fiil	ilerlemek	 fiil		advance		
+şarap, isim	şarap	 isim		wine		
+yukarıda, sıfat	yukarıda	 sıfat		above		
+altın, isim	altın	 isim		gold		
+düzenlemek, fiil	düzenlemek	 fiil		organize		
+satın almak, fiil	satın almak	 fiil		Purchasing		
+sunulmak, fiil	sunulmak	 fiil		to be presented		
+temiz, sıfat	temiz	 sıfat		clean		
+vitamin, isim	vitamin	 isim		vitamin		
+ek, isim	ek	 isim		additional		
+geç, sıfat	geç	 sıfat		late		
+hareket etmek, fiil	hareket etmek	 fiil		act		
+yumurta, isim	yumurta	 isim		egg		
+aşırı, sıfat	aşırı	 sıfat		extreme		
+eylem, isim	eylem	 isim		action		
+istenmek, fiil	istenmek	 fiil		the desirable		
+kesim, isim	kesim	 isim		cut		
+kriz, isim	kriz	 isim		crisis		
+birim, isim	birim	 isim		unit		
+kapanmak, fiil	kapanmak	 fiil		close down		

@@ -40,8 +40,28 @@ Template.Play_page.helpers({
   },
   showTip(){
   	return  Template.instance().templateDictionary.get('showTip');
+  },
+  progressValue() {
+    var size = Template.instance().templateDictionary.get('currentCollectionSize');
+    var orderNumber = Template.instance().templateDictionary.get('currentWordIndex') + 1;
+    return Math.round((orderNumber/size)*100);
   }
 });
+
+var generateAnswers = function (wordId) { 
+  var answers = [];
+  var allWords = Words.find({}).fetch();
+  answers.push(Words.findOne({_id: wordId}));
+  while(answers.length < 5){
+    var candidate = allWords[Math.floor((Math.random() * allWords.length))];
+    debugger;
+    if($.grep(answers, function(item){ return item._id == candidate._id}).length == 0){
+      answers.push(candidate);
+    }
+  }
+  Utils.shuffle(answers); 
+  return answers;
+};
 
 Template.Play_page.events({
     "change #collection-select": function (event, template) {
@@ -51,12 +71,10 @@ Template.Play_page.events({
         Template.instance().templateDictionary.set('currentCollection', collection);
         if(collection.words.length > 0) {
           var wordId = collection.words[0].wordId;
+          Template.instance().templateDictionary.set('currentCollectionSize', collection.words.length);
           Template.instance().templateDictionary.set('currentWordIndex', 0);
           Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: wordId}));
-          var answers = [];
-          answers.push(Words.findOne({_id: wordId}));
-          answers = answers.concat(Words.find({_id: { $ne: wordId}}, { limit: 4}).fetch());
-          Utils.shuffle(answers);
+          var answers = generateAnswers(wordId);
           Template.instance().templateDictionary.set('currentAnswers', answers);
           Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[0].sentenceIds}}).fetch());
         }
@@ -70,10 +88,7 @@ Template.Play_page.events({
         Template.instance().templateDictionary.set('currentWordIndex', cIndex + 1);
         var word = Words.findOne({_id: collection.words[cIndex + 1].wordId});
         Template.instance().templateDictionary.set('currentWord', word);
-        var answers = [];
-        answers.push(word);
-        answers = answers.concat(Words.find({_id: { $ne: word._id}}, { limit: 4}).fetch());
-        Utils.shuffle(answers);
+        var answers = generateAnswers(word._id);
         Template.instance().templateDictionary.set('currentAnswers', answers);
         Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[cIndex + 1].sentenceIds}}).fetch());
       	Template.instance().templateDictionary.set('currentResult', "");
@@ -86,10 +101,7 @@ Template.Play_page.events({
       Template.instance().templateDictionary.set('currentWordIndex', 0);
       var word = Words.findOne({_id: collection.words[0].wordId});
       Template.instance().templateDictionary.set('currentWord', word);
-      var answers = [];
-      answers.push(word);
-      answers = answers.concat(Words.find({_id: { $ne: word._id}}, { limit: 4}).fetch());
-      Utils.shuffle(answers);
+      var answers = generateAnswers(word._id);
       Template.instance().templateDictionary.set('currentAnswers', answers);
       Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[0].sentenceIds}}).fetch());
     	Template.instance().templateDictionary.set('currentResult', "");
@@ -100,6 +112,7 @@ Template.Play_page.events({
     	var word = Template.instance().templateDictionary.get('currentWord');
       	if(event.target.outerText == word.data.secondLang){
       		Template.instance().templateDictionary.set('currentResult', "true");
+          Template.instance().templateDictionary.set('showTip', true);
       	} else {
       		Template.instance().templateDictionary.set('currentResult', "false");
       	}

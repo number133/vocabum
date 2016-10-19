@@ -27,6 +27,11 @@ Template.Learn_page.helpers({
   },
   sentences() {
     return Template.instance().templateDictionary.get('currentSentences');
+  },
+  progressValue() {
+    var size = Template.instance().templateDictionary.get('currentCollectionSize');
+    var orderNumber = Template.instance().templateDictionary.get('currentWordIndex') + 1;
+    return Math.round((orderNumber/size)*100);
   }
 });
 
@@ -38,6 +43,7 @@ Template.Learn_page.events({
         Template.instance().templateDictionary.set('currentCollection', collection);
         if(collection.words.length > 0) {
           var wordId = collection.words[0].wordId;
+          Template.instance().templateDictionary.set('currentCollectionSize', collection.words.length);
           Template.instance().templateDictionary.set('currentWordIndex', 0);
           Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: wordId}));
           Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[0].sentenceIds}}).fetch());

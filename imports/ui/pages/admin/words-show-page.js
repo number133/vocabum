@@ -7,7 +7,6 @@ import './words-show-page.html';
 
 Template.Words_show_page.helpers({
   listWords() {
-    debugger;
     return Words.find({});
   }
 });
