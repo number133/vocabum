@@ -6,6 +6,9 @@
         <option value="{{_id}}">{{name}}</option>
     {{/each}}
   </select>
+  <div>
+    {{wordCount}}
+  </div>
 
   <br/>
   {{#if word}}
@@ -18,7 +21,7 @@
               {{word.data.firstLang}}
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 {{answeredClass}}" >
               {{#each answer in answers}}
                 <button type="button" class="btn btn-primary js-answer"> {{answer.data.secondLang}} </button>
               {{/each}}
@@ -40,13 +43,13 @@
         </div>
       </div>
     </div>
-    <button type="button" class="btn btn-primary js-tip" id="tip">Tip</button>
+    <button type="button" class="btn btn-primary js-tip {{answeredClass}}" id="tip">Tip</button>
     {{#if hasNextWord}}
-    <button type="button" class="btn btn-primary js-next-word" id="next-word">Next</button>
+    <button type="button" class="btn btn-primary js-next-word {{notAnsweredClass}}" id="next-word">Next</button>
     {{else}}
-    <button type="button" class="btn btn-primary js-first-word" id="first-word">First</button>
+    <button type="button" class="btn btn-primary js-first-word {{notAnsweredClass}}" id="first-word">First</button>
     {{/if}}
-    
+
     <div class="progress">
       <div class="progress-bar" role="progressbar" aria-valuenow="{{progressValue}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progressValue}}%;">
       </div>
