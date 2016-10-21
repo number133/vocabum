@@ -32,6 +32,7 @@ Template.Play_page.onCreated( function() {
   this.templateDictionary.set('currentAnswers', []);
   this.templateDictionary.set('currentResult', "");
   this.templateDictionary.set('showTip', false);
+  this.templateDictionary.set('wordStatus', "");
 });
 
 Template.Play_page.helpers({
@@ -70,6 +71,9 @@ Template.Play_page.helpers({
   },
   notAnsweredClass(){
     return Template.instance().templateDictionary.get('currentResult') == '' ? 'disabledbutton' : '';
+  },
+  wordStatus(){
+    return Template.instance().templateDictionary.get('wordStatus');
   }
 });
 
@@ -112,6 +116,7 @@ Template.Play_page.events({
             return n.wordId == wordId;
           });
           Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: wordInCollection[0].sentenceIds}}).fetch());
+          Template.instance().templateDictionary.set('wordStatus', (wordsToReview[0].bucket - 1)*20 + '%');
         }
         // additional code to do what you want with the category
     },
@@ -132,6 +137,7 @@ Template.Play_page.events({
         Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: wordInCollection[0].sentenceIds}}).fetch());
       	Template.instance().templateDictionary.set('currentResult', "");
       	Template.instance().templateDictionary.set('showTip', false);
+        Template.instance().templateDictionary.set('wordStatus', (wordsToReview[cIndex + 1].bucket - 1)*20 + '%');
       }
     },
 
@@ -167,10 +173,12 @@ Template.Play_page.events({
           Template.instance().templateDictionary.set('showTip', true);
           var newBucket = reviewWord.bucket < 6 ? reviewWord.bucket + 1 : 6;
           UserWords.update({_id : reviewWord._id}, {$set: {lastDate: new Date(), bucket: newBucket}});
+          Template.instance().templateDictionary.set('wordStatus', (newBucket - 1)*20 + '%');
       	} else {
       		Template.instance().templateDictionary.set('currentResult', "false");
           UserWords.update({_id : reviewWord._id}, {$set: {lastDate: new Date(), bucket: 1}});
-      	}
+      	  Template.instance().templateDictionary.set('wordStatus', '0%');
+        }
     },
 
     "click .js-tip": function (event) {
