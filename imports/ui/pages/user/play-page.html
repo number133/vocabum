@@ -1,64 +1,65 @@
 <template name="Play_page">
-  <h3>Let's play, yeah!</h3>
-  <select id="collection-select">
-    <option disabled="disabled" selected="selected">Select collection</option>
-    {{#each collections}}
-        <option value="{{_id}}">{{name}}</option>
-    {{/each}}
-  </select>
-  <div>
-    {{wordCount}}
+  <div id="main-region">
+    <h3>Let's play, yeah!</h3>
+    <select id="collection-select">
+      <option disabled="disabled" selected="selected">Select collection</option>
+      {{#each collections}}
+          <option value="{{_id}}">{{name}}</option>
+      {{/each}}
+    </select>
+    <div>
+      {{wordCount}}
+    </div>
+    <button type="button" class="btn btn-primary js-start" id="start-button" style="display: none;">Start</button>
   </div>
 
-  <br/>
-  {{#if word}}
-  <div >
+  <div id="practice-region" hidden>
     <div class="panel panel-default">
       <div class="panel-body">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-xs-10">
             <div class="well">
               {{word.data.firstLang}}
             </div>
           </div>
-          <div class="col-lg-5 {{answeredClass}}" >
-              {{#each answer in answers}}
-                <button type="button" class="btn btn-primary js-answer"> {{answer.data.secondLang}} </button>
-              {{/each}}
-          </div>
-          <div class="col-lg-2">
+          <div class="col-xs-2">
             <div class="well">
               {{wordStatus}}
             </div>
+          
           </div>
         </div>
-        
+        <div class="row">          
+          <div class="col-xs-12 col-md-10" >
+              {{#each answer in answers}}
+                <div id="{{answer._id}}" class="play-answer js-answer"> {{answer.data.secondLang}} </div>
+              {{/each}}
+          </div>
+        </div>
         {{#if showTip}}
-          <div>
+          <div class="row">
             {{#each sentence in sentences}}
-              <div class="row">
-                <div class="col-lg-5">{{sentence.data.firstLang}}</div>
-              </div>
+                <div class="col-xs-12 col-md-10 play-tip">{{sentence.data.firstLang}}</div>
             {{/each}}
           </div>
         {{/if}}
 
-        <div>
-          {{result}}
+        <div class="row">
+            <button type="button" class="btn btn-primary js-tip {{answeredClass}}" id="tip">Tip</button>
+            {{#if hasNextWord}}
+            <button type="button" class="btn btn-primary js-next-word {{notAnsweredClass}}" id="next-word">Next</button>
+            {{else}}
+            <button type="button" class="btn btn-primary js-last-word {{notAnsweredClass}}" id="last-word">End exercise</button>
+            {{/if}}
         </div>
       </div>
+      </div>
     </div>
-    <button type="button" class="btn btn-primary js-tip {{answeredClass}}" id="tip">Tip</button>
-    {{#if hasNextWord}}
-    <button type="button" class="btn btn-primary js-next-word {{notAnsweredClass}}" id="next-word">Next</button>
-    {{else}}
-    <button type="button" class="btn btn-primary js-first-word {{notAnsweredClass}}" id="first-word">First</button>
-    {{/if}}
 
     <div class="progress">
       <div class="progress-bar" role="progressbar" aria-valuenow="{{progressValue}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progressValue}}%;">
       </div>
     </div>
   </div>
-  {{/if}}
 </template>

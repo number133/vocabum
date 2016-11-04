@@ -2,3 +2,42 @@
     pointer-events: none;
     opacity: 0.4;
 }
+
+.play-answer {
+	background-color: #fffb8a;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.play-answer:hover {
+	background-color: #d1ffb3;
+}
+
+.play-answer-right {
+	background-color: #00ff2a;
+	margin: 10px;
+    padding: 5px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.play-answer-wrong {
+	background-color: #ff2b2b;
+	margin: 10px;
+    padding: 5px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.play-tip {
+	background-color: #90b2ff;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+}

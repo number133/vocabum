@@ -26,6 +26,7 @@ Template.Learn_page.onCreated( function() {
   this.templateDictionary.set('currentWord', null);
   this.templateDictionary.set('currentWordIndex', null);
   this.templateDictionary.set('currentCollection', null);
+  this.templateDictionary.set('currentWordsToLearn', []);
   this.templateDictionary.set('currentSentences', []);
 });
 
@@ -37,7 +38,7 @@ Template.Learn_page.helpers({
     return Template.instance().templateDictionary.get('currentWord');
   },
   hasNextWord() {
-    return Template.instance().templateDictionary.get('currentCollection').words.length > Template.instance().templateDictionary.get('currentWordIndex') + 1;
+    return Template.instance().templateDictionary.get('currentWordsToLearn').length > Template.instance().templateDictionary.get('currentWordIndex') + 1;
   },
   sentences() {
     return Template.instance().templateDictionary.get('currentSentences');
@@ -51,13 +52,25 @@ Template.Learn_page.helpers({
 
 Template.Learn_page.events({
     "change #collection-select": function (event, template) {
-        var collectionId = $(event.currentTarget).val();
-        console.log("collectionId : " + collectionId);
+      $('#start-button').show();
+    },
+
+    "click .js-start": function (event, template) {
+      var collectionId = $('#collection-select').val();
         var collection = Collections.findOne({_id: collectionId});
         Template.instance().templateDictionary.set('currentCollection', collection);
-        if(collection.words.length > 0) {
-          var wordId = collection.words[0].wordId;
-          Template.instance().templateDictionary.set('currentCollectionSize', collection.words.length);
+        var learnedWords = UserWords.find({collectionId: collectionId}).fetch();
+        var learnedWordIdList = jQuery.map(learnedWords, function(word) {
+          return word.wordId;
+        });
+        var currentWordsToLearn = jQuery.map(collection.words, function(word) {
+          return $.inArray(word.wordId, learnedWordIdList) > -1 ? null : word;
+        });
+        currentWordsToLearn = currentWordsToLearn.slice(0, 10);
+        Template.instance().templateDictionary.set('currentWordsToLearn', currentWordsToLearn);
+        if(currentWordsToLearn.length > 0) {
+          var wordId = currentWordsToLearn[0].wordId;
+          Template.instance().templateDictionary.set('currentCollectionSize', currentWordsToLearn.length);
           Template.instance().templateDictionary.set('currentWordIndex', 0);
           Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: wordId}));
           var userWord = UserWords.findOne({collectionId: collectionId, wordId: wordId});
@@ -71,36 +84,49 @@ Template.Learn_page.events({
               bucket: 1
             });
           }
-          Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[0].sentenceIds}}).fetch());
+          Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: currentWordsToLearn[0].sentenceIds}}).fetch());
+          $('#practice-region').show();
+          $('#main-region').hide();
         }
-        // additional code to do what you want with the category
     },
 
     "click .js-next-word": function (event) {
       var collection = Template.instance().templateDictionary.get('currentCollection');
+      var currentWordsToLearn = Template.instance().templateDictionary.get('currentWordsToLearn');
       var cIndex = Template.instance().templateDictionary.get('currentWordIndex');
-      if(collection.words.length > cIndex + 1){
+      if(currentWordsToLearn.length > cIndex + 1){
         Template.instance().templateDictionary.set('currentWordIndex', cIndex + 1);
-        Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: collection.words[cIndex + 1].wordId}));
-        var userWord = UserWords.findOne({collectionId: collection._id, wordId: collection.words[cIndex + 1].wordId});
+        Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: currentWordsToLearn[cIndex + 1].wordId}));
+        var userWord = UserWords.findOne({collectionId: collection._id, wordId: currentWordsToLearn[cIndex + 1].wordId});
           if(!userWord){
             UserWords.insert({
               createdAt: new Date(),
               collectionId: collection._id,
-              wordId: collection.words[cIndex + 1].wordId,
+              wordId: currentWordsToLearn[cIndex + 1].wordId,
               userEmail: Meteor.user().emails[0].address,
               lastDate: new Date(),
               bucket: 1
             });
           }
-        Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[cIndex + 1].sentenceIds}}).fetch());
+        Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: currentWordsToLearn[cIndex + 1].sentenceIds}}).fetch());
       }
     },
 
-    "click .js-first-word": function (event) {
+    "click .js-last-word": function (event) {
+      $('#practice-region').hide();
+      $('#main-region').show();
+      Template.instance().templateDictionary.set('currentWord', null);
+      Template.instance().templateDictionary.set('currentWordIndex', null);
+      Template.instance().templateDictionary.set('currentCollection', null);
+      Template.instance().templateDictionary.set('currentWordsToLearn', []);
+      Template.instance().templateDictionary.set('currentSentences', []);
+    },
+
+    "click .js-mark-ignore": function (event) {
       var collection = Template.instance().templateDictionary.get('currentCollection');
-      Template.instance().templateDictionary.set('currentWordIndex', 0);
-      Template.instance().templateDictionary.set('currentWord', Words.findOne({_id: collection.words[0].wordId}));
-      Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: collection.words[0].sentenceIds}}).fetch());
+      var currentWordsToLearn = Template.instance().templateDictionary.get('currentWordsToLearn');
+      var cIndex = Template.instance().templateDictionary.get('currentWordIndex');
+      var userWord = UserWords.findOne({collectionId: collection._id, wordId: currentWordsToLearn[cIndex].wordId});
+      UserWords.update({_id : userWord._id}, {$set: {lastDate: new Date(), bucket: 6}});  
     }
 });

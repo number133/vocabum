@@ -12,15 +12,9 @@ import './play-page.html';
 Template.Play_page.onCreated( function() {
   this.autorun(() => {
     this.subscribe('words.all');
-  });
-  this.autorun(() => {
     this.subscribe('sentences.all');
-  });
-  this.autorun(() => {
     this.subscribe('collections.all');
-  });
-  this.autorun(() => {
-    this.subscribe('user_words.all');
+    this.subscribe('user_words.practice');
   });
 
   this.templateDictionary = new ReactiveDict();
@@ -93,16 +87,19 @@ var generateAnswers = function (wordId) {
 
 Template.Play_page.events({
     "change #collection-select": function (event, template) {
-        var collectionId = $(event.currentTarget).val();
-        console.log("collectionId : " + collectionId);
-        console.log(UserWords.find({}).fetch()[0]);
+         $('#start-button').show();
+    },
+    "click .js-start": function (event, template) {
+        var collectionId = $('#collection-select').val();
         var collection = Collections.findOne({_id: collectionId});
+        
         var wordsToReview = UserWords.find({
           collectionId: collectionId          
         }, 
         { 
           limit: 10 
         }).fetch();
+
         Template.instance().templateDictionary.set('currentCollection', collection);
         Template.instance().templateDictionary.set('currentWordsToReview', wordsToReview);
         if(wordsToReview.length > 0) {
@@ -117,8 +114,11 @@ Template.Play_page.events({
           });
           Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: wordInCollection[0].sentenceIds}}).fetch());
           Template.instance().templateDictionary.set('wordStatus', (wordsToReview[0].bucket - 1)*20 + '%');
+          Template.instance().templateDictionary.set('currentResult', "");
+          Template.instance().templateDictionary.set('showTip', false);
+          $('#practice-region').show();
+          $('#main-region').hide();
         }
-        // additional code to do what you want with the category
     },
 
     "click .js-next-word": function (event) {
@@ -141,44 +141,39 @@ Template.Play_page.events({
       }
     },
 
-    "click .js-first-word": function (event) {
-      var collection = Template.instance().templateDictionary.get('currentCollection');
-      var wordsToReview = UserWords.find({
-          collectionId: collection._id          
-        }, 
-        { 
-          limit: 10 
-        }).fetch();
-      Template.instance().templateDictionary.set('currentWordsToReview', wordsToReview);
-      Template.instance().templateDictionary.set('currentWordIndex', 0);
-      var word = Words.findOne({_id: wordsToReview[0].wordId});
-      Template.instance().templateDictionary.set('currentWord', word);
-      var answers = generateAnswers(word._id);
-      Template.instance().templateDictionary.set('currentAnswers', answers);
-      var wordInCollection = $.grep(collection.words, function(n, i){
-        return n.wordId == word._id;
-      });
-      Template.instance().templateDictionary.set('currentSentences', Sentences.find({_id: {$in: wordInCollection[0].sentenceIds}}).fetch());
-    	Template.instance().templateDictionary.set('currentResult', "");
-    	Template.instance().templateDictionary.set('showTip', false);
+    "click .js-last-word": function (event) {
+      $('#practice-region').hide();
+      $('#main-region').show();
     },
 
     "click .js-answer": function (event) {
-    	var word = Template.instance().templateDictionary.get('currentWord');
-      var cIndex = Template.instance().templateDictionary.get('currentWordIndex');
-      var wordsToReview = Template.instance().templateDictionary.get('currentWordsToReview');
-      var reviewWord = wordsToReview[cIndex];
+      var answered = Template.instance().templateDictionary.get('currentResult') != '';
+      if(!answered) {
+      	var word = Template.instance().templateDictionary.get('currentWord');
+        var cIndex = Template.instance().templateDictionary.get('currentWordIndex');
+        var wordsToReview = Template.instance().templateDictionary.get('currentWordsToReview');
+        var reviewWord = wordsToReview[cIndex];
       	if(event.target.outerText == word.data.secondLang){
+          var uiElementRightAnswer = $('#' + word._id);
+          uiElementRightAnswer.removeClass();
+          uiElementRightAnswer.addClass('play-answer-right');
       		Template.instance().templateDictionary.set('currentResult', "true");
           Template.instance().templateDictionary.set('showTip', true);
           var newBucket = reviewWord.bucket < 6 ? reviewWord.bucket + 1 : 6;
           UserWords.update({_id : reviewWord._id}, {$set: {lastDate: new Date(), bucket: newBucket}});
           Template.instance().templateDictionary.set('wordStatus', (newBucket - 1)*20 + '%');
       	} else {
+          var uiElementWrongAnswer = $('#' + event.target.id);
+          uiElementWrongAnswer.removeClass();
+          uiElementWrongAnswer.addClass('play-answer-wrong');
+          var uiElementRightAnswer = $('#' + word._id);
+          uiElementRightAnswer.removeClass();
+          uiElementRightAnswer.addClass('play-answer-right');
       		Template.instance().templateDictionary.set('currentResult', "false");
           UserWords.update({_id : reviewWord._id}, {$set: {lastDate: new Date(), bucket: 1}});
       	  Template.instance().templateDictionary.set('wordStatus', '0%');
         }
+      }
     },
 
     "click .js-tip": function (event) {

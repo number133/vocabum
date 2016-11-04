@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { UserWords } from '../user_words.js';
 
-Meteor.publish('user_words.all', function() {
+Meteor.publish('user_words.practice', function() {
 	if(this.userId) {
         var user = Meteor.users.findOne(this.userId);
         var nowDate = new Date();
@@ -25,5 +25,16 @@ Meteor.publish('user_words.all', function() {
         });
     } else {
     	return [];
+    }
+});
+
+Meteor.publish('user_words.all', function() {
+    if(this.userId) {
+        var user = Meteor.users.findOne(this.userId);
+        return UserWords.find({
+            userEmail: user.emails[0].address
+        });
+    } else {
+        return [];
     }
 });
